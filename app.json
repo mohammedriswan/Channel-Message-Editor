@@ -18,7 +18,7 @@
             "value": "<b><u><i>{}</i></u></b>"
         },
         "CHAT_IDS": {
-            "description": "Enter your chat IDs with a space",
+            "description": "Enter your channel IDs with a space",
             "required": false
         },
         "LOG_CHANNEL": {

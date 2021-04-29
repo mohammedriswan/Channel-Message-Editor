@@ -1,1 +1,34 @@
-
+{
+    "name": "Channel Message Editor",
+    "description": "A simple channel messages editor bot",
+    "repository": "https://github.com/FayasNoushad/Channel-Message-Editor",
+    "keywords": ["channel message", "editor", "pyrogram", "telegram bot"],
+    "env": {
+        "SESSION_STRING": {
+            "description": "Your session strings from @FnGenStringBot"
+        },
+        "API_ID": {
+            "description": "Your API_ID from https://my.telegram.org/apps"
+        },
+        "API_HASH": {
+            "description": "Your API_HASH from https://my.telegram.org/apps"
+        },
+        "EDIT_FORMAT": {
+            "description": "Enter your edit format in html or markdown format",
+            "value": "<b><u><i>{}</i></u></b>"
+        },
+        "CHAT_IDS": {
+            "description": "Enter your chat IDs with a space",
+            "required": false
+        },
+        "LOG_CHANNEL": {
+            "description": "Enter your log channel id for sending all media of chats",
+            "required": false
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}

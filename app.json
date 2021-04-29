@@ -2,7 +2,7 @@
     "name": "Channel Message Editor",
     "description": "A simple channel messages editor userbot",
     "repository": "https://github.com/FayasNoushad/Channel-Message-Editor",
-    "keywords": ["channel message", "editor", "pyrogram", "telegram bot"],
+    "keywords": ["channel message", "editor", "pyrogram", "telegram userbot"],
     "env": {
         "SESSION_STRING": {
             "description": "Your session strings from @FnGenStringBot"

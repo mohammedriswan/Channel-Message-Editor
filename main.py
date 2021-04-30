@@ -8,7 +8,6 @@ import os
 import pyrogram
 import asyncio
 from pyrogram import Client, filters
-from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram.errors import FloodWait
 
 LOG_CHANNEL = os.environ.get("LOG_CHANNEL", None)
